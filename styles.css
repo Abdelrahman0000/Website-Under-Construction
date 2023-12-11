@@ -1,0 +1,182 @@
+
+* {
+ 
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+  }
+  body {
+    margin: 0;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  gap:50px;
+    margin: 100px;
+}
+
+.image-container {
+    flex: 0 0 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    color: #1F487D;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.20px;
+    word-wrap: break-word;
+}
+
+.main-heading {
+    font-size: 42px;
+    line-height: 46.20px;
+    margin-bottom: 42px;
+}
+
+.sub-heading {
+    font-size: 24px;
+    line-height: 26.40px;
+    margin-bottom: 95px;
+}
+
+.form-container {
+    margin-top: 40px;
+}
+
+.notification-text {
+    color: #1F487D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.60px;
+    margin-bottom: 10px;
+    margin-bottom: 9px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 352px;
+    height: 48px;
+    border: 1px #DFDFE0 solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.line1, .line2, .hidden {
+    width: 100%;
+    height: 2px;
+    background-color: #9A9EA6;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.line2 {
+    top: 7px;
+}
+
+.hidden {
+    top: 14px;
+    opacity: 0;
+}
+
+.input-text {
+    flex: 1;
+    padding-left: 10px;
+    color: #9A9EA6;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.50px;
+}
+
+.submit-button {
+    width: 94px;
+    height: 36px;
+    margin-right: 10px;
+    background: #E3EBFD;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.submit-button-text {
+    color: #1F487D;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.50px;
+}
+
+
+
+
+
+
+@media (max-width:700px){
+    
+.container {
+margin: 24px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.main-heading {
+   
+color: #1F487D;
+ font-size: 32px;
+ font-family: Clash Display;
+ font-weight: 700;
+ line-height: 35.20px;
+ word-wrap: break-word
+}
+.sub-heading {
+   
+color: #1F487D;
+ font-size: 24px;
+ font-family: Clash Display;
+ font-weight: 700;
+ line-height: 26.40px;
+ word-wrap: break-word
+}
+}
+
+
+
